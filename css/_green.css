@@ -1,0 +1,69 @@
+
+/* ********************************Green******************************** */
+.green {
+    
+    color: #28ec42;
+    border: 1px solid #28ec42;
+}
+
+.green:hover {
+    color: #0f1d29;
+    background: #28ec42;
+    box-shadow: 0 0 10px #28ec42, 0 0 40px #28ec42, 0 0 80px #28ec42;
+}
+
+.green #first{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent, #28ec42);
+}
+.green:hover #first{
+    left: 100%;
+    transition: 1s;  
+}
+
+.green #second {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent, #28ec42);
+}
+.green:hover #second {
+    top:100%;
+    transition: 1s;
+    transition-delay:0.25s;
+}
+
+
+
+.green #third {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent, #28ec42);
+}
+.green:hover #third {
+    right:100%;
+    transition: 1s;
+    transition-delay:0.5s;
+}
+
+
+
+.green #forth{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent, #28ec42);
+}
+.green:hover #forth
+{
+    bottom:100%;
+    transition: 1s;
+    transition-delay:0.75s;
+}
